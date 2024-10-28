@@ -1,4 +1,4 @@
 # BeepSoap.github.io
 
 ![Image of site banner]
-(site images/long banner 3.png)
+(site images/long_banner_3.png)
