@@ -15,12 +15,16 @@ body{
 
   margin: 0;
   text-align: center;
-  @font-face {
-    font-family: averia;
-      src: url("./averia-serif-libre/AveriaSerifLibre-Italic.ttf") format('truetype');
-    font-color: #EAE0C8;
-  }
+  
 }
+
+
+@font-face {
+  font-family: averia;
+    src: url("./averia-serif-libre/AveriaSerifLibre-Italic.ttf") format('truetype');
+  font-color: #EAE0C8;
+}
+
 
 bg1{
   margin: 0;
