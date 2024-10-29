@@ -1,16 +1,16 @@
-bg1{
+.bg1{
   margin: 0;
   background-color: #EAE0C8;
   text-align: center;
 }
 
-bg2{
+.bg2{
   margin: 0;
   background-color: #141414;
   text-align: center;
 }
 
-bg3{
+.bg3{
   margin: 0;
   background-color: #141414;
   text-align: left;
