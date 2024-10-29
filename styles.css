@@ -1,5 +1,11 @@
-.bg1{
+bg1{
   margin: 0;
   background: #EAE0C8;
+  text-align: center
+}
+
+bg2{
+  margin: 0;
+  background: #141414;
   text-align: center
 }
