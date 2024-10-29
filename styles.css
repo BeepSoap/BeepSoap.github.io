@@ -1,4 +1,4 @@
-body{
+body {
   background: linear-gradient(
     to bottom,
     #111111 0%,
@@ -19,26 +19,17 @@ body{
 }
 
 
+footer {
+  margin: 0;
+  text-align: center;
+  font-family: 'averia';
+  line-height: 0.8;
+}
+
+
+
 @font-face {
   font-family: "averia";
     src: url("./averia-serif-libre/AveriaSerifLibre-Italic.ttf") format('truetype');
 }
 
-
-bg1{
-  margin: 0;
-  background: #EAE0C8;
-  text-align: center;
-}
-
-bg2{
-  margin: 0;
-  background: #141414;
-  text-align: center;
-}
-
-bg3{
-  margin: 0;
-  background: #141414;
-  text-align: left;
-}
