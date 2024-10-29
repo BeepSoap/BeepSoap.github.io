@@ -1,6 +1,13 @@
 body{
   margin: 0;
-  background: #EAE0C8;
+  background: linear-gradient(
+    to bottom,
+    #EAE0C8 0%,
+    #EAE0C8 50%,
+    #141414 50%,
+    #141414 100%
+  );
+    
   text-align: center;
 }
 
