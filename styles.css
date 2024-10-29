@@ -2,7 +2,9 @@ body{
   margin: 0;
   background: linear-gradient(
     to bottom,
-    #EAE0C8 0%,
+    #141414 0%,
+    #141414 10%
+    #EAE0C8 10%,
     #EAE0C8 50%,
     #141414 50%,
     #141414 100%
