@@ -17,6 +17,7 @@ body{
   text-align: center;
   font-family: averia;
     src: url("./averia-serif-libre/AveriaSerifLibre-Italic.ttf") format('truetype');
+  font-color: #EAE0C8;
 }
 
 bg1{
