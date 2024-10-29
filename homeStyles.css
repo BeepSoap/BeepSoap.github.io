@@ -19,10 +19,6 @@ body {
   line-height: 2;
 }
 
-black {
-  background: #111111;
-}
-
 @font-face {
   font-family: "averia";
     src: url("./averia-serif-libre/AveriaSerifLibre-Italic.ttf") format('truetype');
