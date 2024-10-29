@@ -19,21 +19,6 @@ body {
   line-height: 2;
 }
 
-header {
-  margin: 0;
-  text-align: center;
-  font-family: 'averia';
-}
-
-
-footer {
-  margin: 0;
-  text-align: center;
-  font-family: 'averia';
-}
-
-
-
 @font-face {
   font-family: "averia";
     src: url("./averia-serif-libre/AveriaSerifLibre-Italic.ttf") format('truetype');
