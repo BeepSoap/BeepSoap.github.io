@@ -23,3 +23,7 @@ body {
   font-family: "averia";
     src: url("./averia-serif-libre/AveriaSerifLibre-Italic.ttf") format('truetype');
 }
+
+.clickable {
+  cursor: pointer
+}
