@@ -6,6 +6,23 @@
 </head>
 
 <body>
+  <script>
+    function copy() {
+    // Get the text field
+    var copyText = document.getElementById("myInput");
+
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+  
+    // Alert the copied text
+    alert("Copied the text: " + copyText.value);
+    }
+  </script>
+
   <br>
   <div><a href="https://beepsoap.org" target="_blank"><img src="https://github.com/BeepSoap/BeepSoap.github.io/blob/main/beepsoap%20EAE0C8.png?raw=true" style="height: 68px !important;width: 217px !important;"/></a></div>
   <a href="./home.html" style="font-size: 23px; color: #EAE0C8;">home</a>
@@ -23,14 +40,17 @@
   <div><img src="https://github.com/BeepSoap/BeepSoap.github.io/blob/main/site%20images/info%202%20DONATIONS.png?raw=true" style="height: 2000px !important;width: 1280px !important;"/></div>
   <br><br><br><br>
   <div><img src="https://github.com/BeepSoap/BeepSoap.github.io/blob/main/site%20images/info%203%20WEBSITE.png?raw=true" style="height: 1520px !important;width: 1280px !important;"/></div>
+  <br>
+  <input type="text" value="Hello World" id="myInput">
+  <button onclick="copy()">Copy text</button>
   <br><br><br><br>
 
   <div>
     <p style="font-size: 45px; font-weight: bold; color: #EAE0C8; line-height: 0.1;">beepsoap.org</p>
     <a href="https://ko-fi.com/beepsoap" target="_blank" style="font-size: 23px; color: #EAE0C8;">donate here!</a>
     <p style="color: #A50021;">beepsoap@gmail.com</p>
-    <p style="color: #EAE0C8;">version: test.006</p>
+    <p style="color: #EAE0C8;">version: test.007</p>
   </div> 
-
+  
 </body>
 </html>
