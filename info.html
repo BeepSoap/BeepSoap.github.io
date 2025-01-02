@@ -7,9 +7,18 @@
 
 <body>
   <script>
-    function copy() {
+    function copy(num) {
     // Get the text field
-    var copyText = document.getElementById("myInput");
+    var copyText = 0;
+    if (num == 1) {
+      copyText = document.getElementById("text1");
+    }
+    if (num == 2) {
+      copyText = document.getElementById("text2");
+    }
+    if (num == 3) {
+      copyText = document.getElementById("text3");
+    }
 
     // Select the text field
     copyText.select();
@@ -38,21 +47,21 @@
   <div><img src="https://github.com/BeepSoap/BeepSoap.github.io/blob/main/site%20images/info%201%20BOUNCEWHIZZ.png?raw=true" style="height: 1800px !important;width: 1280px !important;"/></div>
   
   <br>
-  <input style=visibility:hidden type="text" value="Hello World 1" id="myInput">
+  <input style=visibility:hidden type="text" value="Hello World 1" id="text1">
   <br>
   <button onclick="copy()">Copy text</button>
   <br><br><br><br>
   <div><img src="https://github.com/BeepSoap/BeepSoap.github.io/blob/main/site%20images/info%202%20DONATIONS.png?raw=true" style="height: 2000px !important;width: 1280px !important;"/></div>
   
   <br>
-  <input style=visibility:hidden type="text" value="Hello World 2" id="myInput">
+  <input style=visibility:hidden type="text" value="Hello World 2" id="text2">
   <br>
   <button onclick="copy()">Copy text</button>
   <br><br><br><br>
   <div><img src="https://github.com/BeepSoap/BeepSoap.github.io/blob/main/site%20images/info%203%20WEBSITE.png?raw=true" style="height: 1520px !important;width: 1280px !important;"/></div>
   
   <br>
-  <input style=visibility:hidden type="text" value="Hello World 3" id="myInput">
+  <input style=visibility:hidden type="text" value="Hello World 3" id="text3">
   <br>
   <button onclick="copy()">Copy text</button>
   <br><br><br><br>
@@ -61,7 +70,7 @@
     <p style="font-size: 45px; font-weight: bold; color: #EAE0C8; line-height: 0.1;">beepsoap.org</p>
     <a href="https://ko-fi.com/beepsoap" target="_blank" style="font-size: 23px; color: #EAE0C8;">donate here!</a>
     <p style="color: #A50021;">beepsoap@gmail.com</p>
-    <p style="color: #EAE0C8;">version: test.013</p>
+    <p style="color: #EAE0C8;">version: test.014</p>
   </div> 
   
 </body>
